@@ -25,10 +25,12 @@ for i in range(N):
         if priority_queue.empty():
             # 0 출력
             result.append("0")
+            # sys_print("0\n")
         # if priority_queue is not null
         else:
             # priority_queue.get()[1]은 우선 순위의 값을 result에 추가
             result.append(str(priority_queue.get()[1]))
+            # sys_print(str(priority_queue.get()[1]) + "\n")
     # x != 0
     else:
         # priority_queue에서 절댓값순으로 정렬, 절댓값이 같으면 크기 순(음수 순)으로 정렬
