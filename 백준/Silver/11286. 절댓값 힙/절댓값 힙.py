@@ -35,5 +35,9 @@ for i in range(N):
         priority_queue.put((abs(x), x))
 
 # 한 번에 출력하기 위해
-# \n.join(result)하게 되면 result마다 \n이 자동으로 입력
+# \n.join(result)하게 되면 result의 모든 값을 \n으로 연결 후 마지막에 한 번에 출력
 sys_print("\n".join(result)+ "\n")
+
+# out of index
+# for i in range(N):
+#     sys_print(str(result[i]) + "\n")
