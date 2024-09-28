@@ -44,8 +44,6 @@ def dfs(v):
         if not visited[i]:
             dfs(i)
 
-dfs(V)
-
 # BFS
 def bfs(v):
     queue = deque()
@@ -69,10 +67,12 @@ def bfs(v):
 
 
 
+# for i in range(N+1):
+#     print(A[i])
+
+# 출력
+dfs(V)
 # 초기화
 print()
-
 visited = [False] * (N+1)
-
-# bfs 출력
 bfs(V)
